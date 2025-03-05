@@ -1,0 +1,8 @@
+/* Add background image */
+body {
+  background-image: url("/assets/images/background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
