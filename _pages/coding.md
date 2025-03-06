@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: posts
 title: "Coding"
 category: coding
 permalink: /coding/
