@@ -1,6 +1,7 @@
 ---
-layout: single
-title: "Coding Chronicles"
+layout: category
+title: "Coding"
+category: coding
 permalink: /coding/
 ---
 
