@@ -1,10 +1,10 @@
 ---
 layout: posts
-title:  "day8h_merge datasets by id"
+title:  "Day 8 h:merge datasets by id"
+date : 2025-03-07
 categories: coding
 tag: [python, blog, merge]
-toc: true
-author_profile: false
+excerpt: "Merging datasets by ID and analyzing salary distributions across different countries."
 ---
 
 <head>
