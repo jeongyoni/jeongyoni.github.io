@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: posts
 title: "Japanese Study"
 permalink: /japanese/
 category: japanese
