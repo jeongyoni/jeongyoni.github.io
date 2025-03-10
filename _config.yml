@@ -325,3 +325,7 @@ defaults:
       comments: # true
       share: true
       related: true
+collections:
+  japanese:
+    output: true
+    permalink: /:collection/:path/
