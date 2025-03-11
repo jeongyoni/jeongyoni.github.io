@@ -1,6 +1,6 @@
 ---
 layout: posts
-title:  "Day 1: Japanese Vocabulary & Grammar"
+title:  "Day 2: Japanese Vocabulary & Grammar"
 date: 2025-03-08
 categories: japanese
 tag: [japanese, vocab, grammar]
