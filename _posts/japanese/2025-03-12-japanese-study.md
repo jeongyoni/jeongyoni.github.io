@@ -3,6 +3,7 @@ layout: posts
 title:  "Day 6: Japanese Vocabulary & Grammar"
 date: 2025-03-12
 categories: japanese
+permalink: /japanese/day6/
 tag: [japanese, vocab, grammar]
 toc: true
 author_profile: false
