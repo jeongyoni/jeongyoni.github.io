@@ -328,4 +328,4 @@ defaults:
 collections:
   japanese:
     output: true
-    permalink: /:collection/:path/
+    permalink: /japanese/:path/
