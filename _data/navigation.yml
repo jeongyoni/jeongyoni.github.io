@@ -4,6 +4,9 @@ main:
     url: /
   - title: "Finance Data"
     url: /finance-data/
+    children:
+      - title: "금융 용어"
+        url: /finance-data/finance_terms/
   - title: "Coding"
     url: /coding/
   - title: "Japanese Studies"
