@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: /
   - title: "Finance Data"
-    url: /finance/
+    url: /finance-data/
   - title: "Coding"
     url: /coding/
   - title: "Japanese Studies"
