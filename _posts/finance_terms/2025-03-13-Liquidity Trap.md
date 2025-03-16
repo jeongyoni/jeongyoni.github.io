@@ -2,6 +2,8 @@
 title: "금융 용어 - 유동성 함정 (Liquidity Trap)"
 date: 2025-03-13
 categories: finance_terms
+layout: single
+permalink: /finance-data/Liquidity Trap/
 ---
 
 ## 유동성 함정 (Liquidity Trap)

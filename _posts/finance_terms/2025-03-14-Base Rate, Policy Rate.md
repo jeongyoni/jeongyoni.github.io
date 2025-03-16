@@ -2,6 +2,8 @@
 title: "금융 용어 - 기준금리 (Base Rate, Policy Rate)"
 date: 2025-03-14
 categories: finance_terms
+layout: single
+permalink: /finance-data/Base Rate, Policy Rate/
 ---
 
 
