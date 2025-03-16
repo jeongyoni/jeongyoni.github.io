@@ -1,7 +1,7 @@
 ---
 layout: collection
 title: "Finance Data"
-permalink: /finance_data/
+permalink: /finance-data/
 collection: finance_terms
 ---
 
