@@ -325,13 +325,13 @@ defaults:
       comments: # true
       share: true
       related: true
+      
 collections:
   japanese:
     output: true
     permalink: /japanese/:path/
-
-  collections:
   finance_terms:
     output: true
     permalink: /finance-data/:path/
+
 
