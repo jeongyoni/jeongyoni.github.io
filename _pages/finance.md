@@ -1,5 +1,5 @@
 ---
-layout: collection
+layout: category
 title: "Finance Data"
 permalink: /finance-data/
 collection: finance_terms
