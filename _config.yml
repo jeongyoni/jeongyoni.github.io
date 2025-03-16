@@ -322,9 +322,20 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments:  true
       share: true
       related: true
+  - scope:
+      path: "_posts/finance_terms"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      categories: finance_terms  
 
 collections:
   japanese:
