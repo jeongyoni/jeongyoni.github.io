@@ -10,3 +10,6 @@ main:
     url: /japanese/
   - title: "About"
     url: /about/
+  - title: "Data Analysis"
+    url: /categories/data-analysis/
+
