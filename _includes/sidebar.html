@@ -1,6 +1,12 @@
 {% if page.author_profile or layout.author_profile or page.sidebar %}
   <div class="sidebar sticky">
-  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  
+  <!-- 기존 프로필 섹션 -->
+  {% if page.author_profile or layout.author_profile %}
+    {% include author-profile.html %}
+  {% endif %}
+
+  <!-- 기존 사이드바 콘텐츠 -->
   {% if page.sidebar %}
     {% for s in page.sidebar %}
       {% if s.image %}
@@ -15,5 +21,18 @@
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
   {% endif %}
+
+  <!-- 📂 카테고리 목록 추가 -->
+  <h3>📂 Categories</h3>
+  <ul>
+    {% for category in site.categories %}
+      <li>
+        <a href="/categories/{{ category[0] | slugify }}/">
+          {{ category[0] | capitalize }} ({{ category[1].size }})
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
   </div>
 {% endif %}
