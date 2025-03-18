@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: single
 title:  "Day 5: Japanese Vocabulary & Grammar"
 date: 2025-03-11
 categories: japanese
