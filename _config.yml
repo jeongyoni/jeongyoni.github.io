@@ -247,7 +247,7 @@ pagination:
   per_page: 10
   permalink: '/page/:num/'
   title: ':title - page :num'
-  limit: 0
+  limit: "0"
   sort_field: 'date'
   sort_reverse: true
   category: 'posts'
@@ -337,10 +337,6 @@ defaults:
       related: true
       categories: finance_terms  
 
-collections:
-  categories:
-    output: true
-    permalink: /categories/:name/
 
 
 
