@@ -13,8 +13,24 @@ layout: archive
 {% endif %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
+
 <div class="entries-{{ entries_layout }}">
-  {% include documents-collection.html entries=posts type=entries_layout %}
+  {% for post in posts %}
+    <article>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+
+      <!-- 📂 카테고리 표시 추가 -->
+      <p>
+        <strong>📂 Categories:</strong> 
+        {% for category in post.categories %}
+          <a href="/categories/{{ category | slugify }}/">{{ category }}</a>
+          {% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+      </p>
+
+    </article>
+  {% endfor %}
 </div>
 
 {% include paginator.html %}
