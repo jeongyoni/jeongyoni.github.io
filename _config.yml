@@ -338,12 +338,9 @@ defaults:
       categories: finance_terms  
 
 collections:
-  japanese:
+  categories:
     output: true
-    permalink: /japanese/:path/
-  finance_terms:
-    output: true
-    permalink: /finance-data/:path/
+
 
 
       
