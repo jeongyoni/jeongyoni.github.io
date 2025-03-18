@@ -1,5 +1,5 @@
 ---
 layout: category
 title: "Finance Terms"
-permalink: /categories/finance_terms/
+permalink: /categories/finance-terms/
 ---

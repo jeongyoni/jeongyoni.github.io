@@ -340,10 +340,9 @@ defaults:
 collections:
   categories:
     output: true
+    permalink: /categories/:name/
 
 
-
-      
 
 
 
