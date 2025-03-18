@@ -337,10 +337,6 @@ defaults:
       related: true
       categories: finance_terms  
 
-collections:
-  categories:
-    output: true
-    permalink: /categories/:name/
 
 
 
