@@ -6,6 +6,18 @@ tag: [python, blog, jekyll, bar chart ,chart]
 toc: true
 author_profile: false
 ---
+## 학생 점수 바 그래프 (Student Score Bar Chart)
+John과 Peter의 과목별 점수를 시각화한 Bar Chart 
+
+Matplotlib과 Seaborn을 사용하여 각 학생의 점수를 비교하고, 
+가독성을 높이기 위해 색상과 레이아웃을 조정.
+
+### 📌 사용한 라이브러리
+- `matplotlib` : 기본적인 데이터 시각화 라이브러리
+- `seaborn` : 보다 직관적인 그래프 스타일 제공
+- `pandas` : 데이터 처리 및 프레임 구성
+- `numpy` : x축 정렬을 위한 배열 연산
+
 
 <head>
   <style>
