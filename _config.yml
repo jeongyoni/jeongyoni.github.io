@@ -344,6 +344,8 @@ collections:
   finance_terms:
     output: true
     permalink: /finance-data/:path/
+  data-analysis:
+    output: true
 
       
 
