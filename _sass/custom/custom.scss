@@ -89,3 +89,8 @@ a:hover {
   color: #fff;
   font-weight: bold;
 }
+
+/* 🔥 카테고리 정보 완전히 숨기기 */
+.page__meta {
+  display: none;
+}
