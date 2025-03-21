@@ -136,7 +136,7 @@ author:
       url: "https://github.com/jeongyoni"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      # url: "https://www.instagram.com/jexng64yn?igsh=NGQzZ2RvbGtkaGN2&utm_source=qr"
 
 # Site Footer
 footer:
@@ -288,6 +288,9 @@ whitelist:
 category_archive:
   type: liquid
   path: /categories/
+
+show_categories: false
+
 tag_archive:
   type: liquid
   path: /tags/
