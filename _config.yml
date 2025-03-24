@@ -328,6 +328,7 @@ defaults:
       comments:  true
       share: true
       related: true
+      
   - scope:
       path: "_posts/finance_terms"
       type: posts
