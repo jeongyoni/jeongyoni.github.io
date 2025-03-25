@@ -1,14 +1,14 @@
 ---
 ---
 layout: single
-title:  "WineTree 프로젝트: 와인 품질 예측"
-categories: coding
+title:  "WineTree analysis"
+categories: data-analysis
 tag: [python, machine learning, decision tree]
 toc: true
 author_profile: false
 ---
 
-# 🍷 WineTree 프로젝트
+# 🍷 WineTree analysis
 
 UCI Red Wine Quality 데이터를 사용하고, Decision Tree를 통해 좋은 와인을 예측
 
