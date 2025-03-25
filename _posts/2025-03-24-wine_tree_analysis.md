@@ -31,7 +31,6 @@ UCI Red Wine Quality 데이터를 사용하고, Decision Tree를 통해 좋은 �
 - fixed acidity ↔ citric acid: **강한 양의 상관관계**
 - free sulfur dioxide ↔ total sulfur dioxide: **중복 가능성 있음**
 
-
 <head>
   <style>
     table.dataframe {
