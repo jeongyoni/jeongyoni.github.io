@@ -1,14 +1,13 @@
 ---
----
 layout: single
-title:  "WineTree 프로젝트: 와인 품질 예측"
-categories: coding
+title:  "WineTree analysis"
+categories: data-analysis
 tag: [python, machine learning, decision tree]
 toc: true
 author_profile: false
 ---
 
-# 🍷 WineTree 프로젝트
+#  WineTree analysis
 
 UCI Red Wine Quality 데이터를 사용하고, Decision Tree를 통해 좋은 와인을 예측
 
@@ -31,19 +30,6 @@ UCI Red Wine Quality 데이터를 사용하고, Decision Tree를 통해 좋은 �
 - volatile acidity ↔ quality: **음의 상관관계**
 - fixed acidity ↔ citric acid: **강한 양의 상관관계**
 - free sulfur dioxide ↔ total sulfur dioxide: **중복 가능성 있음**
-
-##  고민한 질문들 (Research Questions)
-
-- alcohol이 가장 중요한 이유는 단순히 수치 때문일까?
-- volatile acidity가 모델에서 중요하게 작용하는 이유는?
-- 상관계수와 feature importance가 다르게 나올 수 있는 이유는?
-
-
----
-
-
-
----
 
 <head>
   <style>
