@@ -106,44 +106,26 @@ a:hover {
 
 .recent-posts {
   margin-top: 1rem;
+}
 
-  .recent-post-item {
-    padding: 1rem 0;
-    border-bottom: 1px solid #f3c3db;
-  }
+.recent-post-item {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
 
-  .post-title {
-    font-size: 1.1rem;
-    margin-bottom: 0.3rem;
+.post-title a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
 
-    a {
-      color: #d63384;
-      text-decoration: none;
-      font-weight: bold;
+.post-meta {
+  font-size: 0.9rem;
+  color: #777;
+}
 
-      &:hover {
-        text-decoration: underline;
-        color: #a61e5c;
-      }
-    }
-  }
-
-  .post-meta {
-    font-size: 0.9rem;
-    color: #777;
-
-    .post-date {
-      margin-right: 0.5rem;
-    }
-
-    .post-categories a.category-link {
-      color: #777;
-      text-decoration: none;
-      font-weight: 500;
-
-      &:hover {
-        color: #d63384;
-      }
-    }
-  }
+.category-link {
+  color: #d63384;
+  font-weight: 500;
 }
