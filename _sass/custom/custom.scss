@@ -94,3 +94,56 @@ a:hover {
 .page__meta {
   display: none;
 }
+/* 🔽 Recent Posts 블록 스타일 */
+.home__section-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem;
+  border-bottom: 2px solid #ffd6e7;
+  padding-bottom: 0.5rem;
+  color: #d63384;
+}
+
+.recent-posts {
+  margin-top: 1rem;
+
+  .recent-post-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid #f3c3db;
+  }
+
+  .post-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.3rem;
+
+    a {
+      color: #d63384;
+      text-decoration: none;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: underline;
+        color: #a61e5c;
+      }
+    }
+  }
+
+  .post-meta {
+    font-size: 0.9rem;
+    color: #777;
+
+    .post-date {
+      margin-right: 0.5rem;
+    }
+
+    .post-categories a.category-link {
+      color: #777;
+      text-decoration: none;
+      font-weight: 500;
+
+      &:hover {
+        color: #d63384;
+      }
+    }
+  }
+}

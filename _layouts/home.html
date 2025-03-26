@@ -4,7 +4,7 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+<h2 class="home__section-title">📝 Recent Posts</h2>
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
@@ -12,23 +12,23 @@ layout: archive
   {% assign posts = site.posts %}
 {% endif %}
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    <article>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
-
-      <!-- 📂 카테고리 표시 추가 -->
-      <p>
-        <strong>📂 Categories:</strong> 
-        {% for category in post.categories %}
-          <a href="/categories/{{ category | slugify }}/">{{ category }}</a>
-          {% unless forloop.last %}, {% endunless %}
-        {% endfor %}
-      </p>
-
+<div class="recent-posts">
+  {% for post in posts limit:5 %}
+    <article class="recent-post-item">
+      <h3 class="post-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h3>
+      <div class="post-meta">
+        <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+        {% if post.categories %}
+          <span class="post-categories">
+            ·
+            {% for category in post.categories %}
+              <a href="/categories/{{ category | slugify }}/" class="category-link">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </span>
+        {% endif %}
+      </div>
     </article>
   {% endfor %}
 </div>
