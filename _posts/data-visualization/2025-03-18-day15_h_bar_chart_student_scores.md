@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "bar_chart_student_scores"
-categories: data-analysis
+categories: data-visualization
 tag: [python, blog, jekyll, bar chart ,chart]
 toc: true
 author_profile: false

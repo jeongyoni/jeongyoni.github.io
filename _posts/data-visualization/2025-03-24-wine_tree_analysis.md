@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "WineTree analysis"
-categories: data-analysis
+categories: data-visualization
 tag: [python, machine learning, decision tree]
 toc: true
 author_profile: false

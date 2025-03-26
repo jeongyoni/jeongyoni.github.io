@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "titanic_survival_analysis"
-categories: data-analysis
+categories: data-visualization
 tag: [python, seaborn, matplotlib, data-visualization]
 toc: true
 author_profile: false

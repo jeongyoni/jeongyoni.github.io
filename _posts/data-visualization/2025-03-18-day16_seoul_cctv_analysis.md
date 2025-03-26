@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Seoul CCTV Analysis"
-categories: data-analysis
+categories: data-visualization
 tag: [python, data-cleaning, matplotlib, visualization]
 toc: true
 author_profile: false
