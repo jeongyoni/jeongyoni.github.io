@@ -1,7 +1,7 @@
 ---
 title: "금융 용어 - 신용 리스크 (Credit Risk)"
 date: 2025-03-19
-categories: finance_terms
+categories: finance-concepts
 layout: single
 permalink: /finance-data/credit-risk/
 ---

@@ -1,7 +1,7 @@
 ---
 title: "금융 용어 - 유동성 위험 (Liquidity Risk)"
 date: 2025-03-18
-categories: finance_terms
+categories: finance-concepts
 layout: single
 permalink: /finance-data/liquidity-risk/
 ---

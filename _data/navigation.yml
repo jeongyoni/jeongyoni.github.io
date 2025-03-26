@@ -16,7 +16,7 @@ main:
     icon: fas fa-chart-bar
 
   - title: "Finance Concepts"
-    url: /categories/finance-terms/
+    url: /categories/finance-concepts/
     icon: fas fa-coins
 
   - title: "Study Logs"

@@ -1,7 +1,7 @@
 ---
 title: "금융 용어 - 스태그플레이션 (Stagflation)"
 date: 2025-03-15
-categories: finance_terms
+categories: finance-concepts
 layout: single
 permalink: /finance-data/Stagflation/
 ---
