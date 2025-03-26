@@ -318,11 +318,11 @@ compress_html:
 # Defaults
 defaults:
   - scope:
-      path: "_posts/finance_terms"
+      path: "_posts/finance-terms"
       type: posts
     values:
       layout: single
-      categories: finance_terms
+      categories: finance-terms
 
   - scope:
       path: "_posts/study-logs"
@@ -339,11 +339,11 @@ defaults:
       categories: japanese
 
   - scope:
-      path: "_posts/news_summary"
+      path: "_posts/news-summary"
       type: posts
     values:
       layout: single
-      categories: news_summary
+      categories: news-summary
 
   - scope:
       path: "_posts/projects"
@@ -353,18 +353,18 @@ defaults:
       categories: projects
 
   - scope:
-      path: "_posts/sql_practice"
+      path: "_posts/sql-practice"
       type: posts
     values:
       layout: single
-      categories: sql_practice
+      categories: sql-practice
 
   - scope:
-      path: "_posts/data_visualization"
+      path: "_posts/data-visualization"
       type: posts
     values:
       layout: single
-      categories: data_visualization
+      categories: data-visualization
 
 
 
