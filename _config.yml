@@ -318,6 +318,15 @@ compress_html:
 # Defaults
 defaults:
   - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      related: true
+  - scope:
       path: "_posts/finance-terms"
       type: posts
     values:
