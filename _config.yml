@@ -327,11 +327,11 @@ defaults:
       comments: true
       related: true
   - scope:
-      path: "_posts/finance-terms"
+      path: "_posts/finance-concepts"
       type: posts
     values:
       layout: single
-      categories: finance-terms
+      categories: finance-concepts
 
   - scope:
       path: "_posts/study-logs"
