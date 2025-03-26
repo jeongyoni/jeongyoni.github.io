@@ -317,29 +317,54 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments:  true
-      share: true
-      related: true
-      
   - scope:
       path: "_posts/finance_terms"
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-      categories: finance_terms  
+      categories: finance_terms
+
+  - scope:
+      path: "_posts/study_logs"
+      type: posts
+    values:
+      layout: single
+      categories: study_logs
+
+  - scope:
+      path: "_posts/japanese"
+      type: posts
+    values:
+      layout: single
+      categories: japanese
+
+  - scope:
+      path: "_posts/news_summary"
+      type: posts
+    values:
+      layout: single
+      categories: news_summary
+
+  - scope:
+      path: "_posts/projects"
+      type: posts
+    values:
+      layout: single
+      categories: projects
+
+  - scope:
+      path: "_posts/sql_practice"
+      type: posts
+    values:
+      layout: single
+      categories: sql_practice
+
+  - scope:
+      path: "_posts/data_visualization"
+      type: posts
+    values:
+      layout: single
+      categories: data_visualization
 
 
 

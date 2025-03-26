@@ -8,19 +8,19 @@ main:
     icon: fas fa-project-diagram
 
   - title: "SQL Practice"
-    url: /categories/sql-practice/
+    url: /categories/sql_practice/
     icon: fas fa-database
 
   - title: "Data Visualization"
-    url: /categories/data-visualization/
+    url: /categories/data_visualization/
     icon: fas fa-chart-bar
 
   - title: "Finance Concepts"
-    url: /categories/finance-concepts/
+    url: /categories/finance_terms/
     icon: fas fa-coins
 
   - title: "Study Logs"
-    url: /categories/study-logs/
+    url: /categories/study_logs/
     icon: fas fa-book
 
   - title: "Japanese"
