@@ -1,40 +1,52 @@
-/* Pink & White Minimalist Theme */
-
-/* 전체 페이지 배경 */
+/* 기본 설정 */
 body {
-  background-color: #fdf5f9; /* 연한 핑크 배경 */
-  color: #333; /* 기본 글자 색 */
-  font-family: 'Poppins', sans-serif; /* 세련된 폰트 */
+  background-color: #ffffff; /* 화이트 배경 */
+  color: #2c3e50; /* 딥 네이비 텍스트 */
+  font-family: 'Poppins', 'Noto Sans KR', sans-serif;
 }
 
-/* 헤더 스타일 */
+/* 헤더 */
 .site-title {
   font-size: 28px;
   font-weight: bold;
-  color: #d63384; /* 포인트 컬러 (핑크) */
+  color: #2c3e50;
 }
 
 .site-nav {
-  background-color: #fff;
-  border-bottom: 2px solid #d63384; /* 핑크색 밑줄 */
+  background-color: #ffffff;
+  border-bottom: 2px solid #5dade2;
 }
 
 .site-nav a {
-  color: #d63384;
-  font-weight: bold;
+  color: #2c3e50;
+  font-weight: 600;
   padding: 8px 12px;
 }
 
 .site-nav a:hover {
   color: #fff;
-  background-color: #d63384;
+  background-color: #5dade2;
   border-radius: 5px;
 }
 
-/* 포스트 제목 스타일 */
+/* 링크 */
+a {
+  color: #5dade2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #ffffff;
+  background-color: #5dade2;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+
+/* 포스트 제목 */
 h1, h2, h3 {
   font-weight: bold;
-  color: #b81d6d; /* 진한 핑크 */
+  color: #2c3e50;
 }
 
 h1 {
@@ -45,63 +57,28 @@ h2 {
   font-size: 28px;
 }
 
-/* 링크 스타일 */
-a {
-  color: #b81d6d;
-  text-decoration: none;
-  font-weight: 600;
+/* 사이드바 카테고리 */
+.sidebar {
+  color: #2c3e50;
 }
 
-a:hover {
-  color: #fff;
-  background-color: #b81d6d;
-  padding: 3px;
-  border-radius: 3px;
+.sidebar .categories a {
+  color: #5dade2;
+  font-weight: 500;
 }
 
-/* 최근 포스트 리스트 */
-.post-list {
-  list-style: none;
-  padding: 0;
+.sidebar .categories a:hover {
+  text-decoration: underline;
 }
 
-.post-list li {
-  background: #fff;
-  margin: 10px 0;
-  padding: 15px;
-  border-radius: 8px;
-  border-left: 5px solid #d63384;
-}
-
-.post-list li:hover {
-  background: #fce7ef;
-}
-
-/* 푸터 스타일 */
-.page__footer {
-  background: #d63384;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-}
-
-.page__footer a {
-  color: #fff;
-  font-weight: bold;
-}
-
-/* 🔥 카테고리 정보 완전히 숨기기 */
-.page__meta {
-  display: none;
-}
-/* 🔽 Recent Posts 블록 스타일 */
+/* 최근 포스트 */
 .home__section-title {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 2rem 0 1rem;
-  border-bottom: 2px solid #ffd6e7;
+  border-bottom: 2px solid #5dade2;
   padding-bottom: 0.5rem;
-  color: #d63384;
+  color: #2c3e50;
 }
 
 .recent-posts {
@@ -117,7 +94,7 @@ a:hover {
 .post-title a {
   font-size: 1.2rem;
   font-weight: 600;
-  color: #333;
+  color: #2c3e50;
 }
 
 .post-meta {
@@ -126,6 +103,24 @@ a:hover {
 }
 
 .category-link {
-  color: #d63384;
+  color: #5dade2;
   font-weight: 500;
+}
+
+/* 푸터 */
+.page__footer {
+  background-color: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.page__footer a {
+  color: #5dade2;
+  font-weight: 500;
+}
+
+/* 불필요한 메타 정보 숨기기 */
+.page__meta {
+  display: none;
 }
