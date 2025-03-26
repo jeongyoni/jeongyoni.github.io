@@ -1,7 +1,7 @@
 ---
 layout: category
 title: "📁 Finance Concepts"
-category: finance-concepts
+category: finance_terms
 permalink: /categories/finance-concepts/
 taxonomy: categories
 ---

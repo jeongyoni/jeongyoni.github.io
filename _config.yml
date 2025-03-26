@@ -329,7 +329,7 @@ defaults:
       type: posts
     values:
       layout: single
-      categories: study_logs
+      categories: study-logs
 
   - scope:
       path: "_posts/japanese"
