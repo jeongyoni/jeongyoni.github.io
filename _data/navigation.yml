@@ -1,15 +1,32 @@
-# main links
 main:
   - title: "Home"
     url: /
-  - title: "Finance Data"
-    url: /finance-data/
-  - title: "Coding"
-    url: /coding/
-  - title: "Japanese Studies"
-    url: /japanese/
+    icon: fas fa-home
+
+  - title: "Projects"
+    url: /categories/projects/
+    icon: fas fa-project-diagram
+
+  - title: "SQL Practice"
+    url: /categories/sql-practice/
+    icon: fas fa-database
+
+  - title: "Data Visualization"
+    url: /categories/data-visualization/
+    icon: fas fa-chart-bar
+
+  - title: "Finance Concepts"
+    url: /categories/finance-concepts/
+    icon: fas fa-coins
+
+  - title: "Study Logs"
+    url: /categories/study-logs/
+    icon: fas fa-book
+
+  - title: "Japanese"
+    url: /categories/japanese/
+    icon: fas fa-language
+
   - title: "About"
     url: /about/
-  - title: "Data Analysis"
-    url: /categories/data-analysis/
-
+    icon: fas fa-user

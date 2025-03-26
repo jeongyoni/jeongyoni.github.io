@@ -2,7 +2,7 @@
 layout: posts
 title:  "Day 8 h:merge datasets by id"
 date : 2025-03-07
-categories: coding
+categories: [study-logs]
 tag: [python, blog, merge]
 excerpt: "Merging datasets by ID and analyzing salary distributions across different countries."
 ---

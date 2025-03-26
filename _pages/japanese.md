@@ -1,9 +1,11 @@
 ---
-layout: posts
-title: "Japanese Study"
-permalink: /japanese/
+layout: category
+title: "📁 Japanese Studies"
 category: japanese
+permalink: /categories/japanese/
+taxonomy: categories
 ---
+
 
 ## 📝 일본어 공부 기록  
 

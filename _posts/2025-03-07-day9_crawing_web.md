@@ -2,7 +2,7 @@
 layout: posts
 title:  "Day 9: Crawling html"
 date: 2025-03-07
-categories: coding
+categories: [study-logs]
 tag: [python, blog, crawling, html, web]
 excerpt: "Learning how to crawl web pages using Python libraries like requests, BeautifulSoup, and Selenium."
 toc: true
