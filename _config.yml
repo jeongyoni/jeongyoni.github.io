@@ -325,7 +325,7 @@ defaults:
       categories: finance_terms
 
   - scope:
-      path: "_posts/study_logs"
+      path: "_posts/study-logs"
       type: posts
     values:
       layout: single
