@@ -289,7 +289,7 @@ category_archive:
   type: liquid
   path: /categories/
 
-show_categories: false
+show_categories: true
 
 tag_archive:
   type: liquid
