@@ -360,6 +360,12 @@ defaults:
     values:
       layout: single
       categories: projects
+  - scope:
+      path: "_posts/projects/stock-prediction"
+      type: posts
+    values:
+      layout: single
+      categories: [projects, stock-prediction] 
 
   - scope:
       path: "_posts/sql-practice"
@@ -375,6 +381,7 @@ defaults:
       layout: single
       categories: data-visualization
 
+  
 
 
 
