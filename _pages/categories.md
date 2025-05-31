@@ -7,9 +7,10 @@ permalink: /categories/
 <h1>📂 Categories</h1>
 
 <ul>
-  {% for category in site.categories %}
+  {% assign sorted_categories = site.categories | sort %}
+  {% for category in sorted_categories %}
     <li>
-      <a href="/categories/{{ category[0] | slugify }}/">
+      <a href="{{ '/categories/' | append: category[0] | slugify | append: '/' }}">
         {{ category[0] | capitalize }} ({{ category[1].size }})
       </a>
     </li>
