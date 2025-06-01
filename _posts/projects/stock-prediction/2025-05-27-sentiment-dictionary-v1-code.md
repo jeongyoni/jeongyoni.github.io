@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "감정사전 V1 구축 및 실험"
+title:  "감정사전 V1 code"
 categories: [projects, stock-prediction]
 tag: [감정사전, 감성분석, 금융뉴스, 주가예측]
 toc: true
