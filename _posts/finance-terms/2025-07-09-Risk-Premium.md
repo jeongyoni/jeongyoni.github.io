@@ -1,6 +1,6 @@
 ---
 title: "금융 용어 - 위험 프리미엄(Risk Premium)"
-date: 2025-07-10
+date: 2025-07-09
 categories: finance-concepts
 layout: single
 permalink: /finance-data/risk-premium/
